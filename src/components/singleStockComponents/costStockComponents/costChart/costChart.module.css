@@ -1,0 +1,112 @@
+.cost_chart_con {
+  margin-top: 30px;
+  height: 580px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 100px;
+}
+.cost_chart_short_wr{
+  height: 25px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  display: inline-flex;
+  
+  background: #ECF1F9;
+border-radius: 5px;
+}
+.cost_chart_short_item{
+  font-weight: 300;
+font-size: 12px;
+}
+.cost_chart_params_items_wr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.cost_chart_params_con{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.cost_chart_params_item{
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.3);
+  padding-right: 30px;
+  padding-left: 15px;
+}
+.cost_chart_params_svg{
+ opacity: 0.3;
+ cursor: pointer;
+}
+.cost_chart_params_item_a{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-right: 30px;
+  padding-left: 15px;
+}
+.cost_chart_footer_con{
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.cost_chart_footer_con *{
+  background-color: rgba(255, 255, 255, 0);
+}
+.cost_chart_footer_wr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:345px;
+}
+.cost_chart_footer_title_wr{
+  display: flex;
+  align-items: center;
+}
+.cost_chart_footer_title_wr div{
+  margin-right: 15px;
+}
+.cost_chart_footer_title{
+  padding-top: 3px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+}
+.cost_chart_footer_price{
+  padding-top: 1px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+.cost_chart_footer_text{
+  font-weight: 200;
+font-size: 12px;
+line-height: 14px;
+}
+.cost_chart_footer_img_s{
+  width:16px;
+  height:16px;
+  background-image: url('./../../../../images/singleStock/spec-price.svg');
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+}
+.cost_chart_footer_img_j{
+  width:16px;
+  height:16px;
+  background-image: url('./../../../../images/singleStock/just-price.svg');
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+}
+.cost_chart_footer_img_c{
+  width:16px;
+  height:16px;
+  background-image: url('./../../../../images/singleStock/con-price.svg');
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+}

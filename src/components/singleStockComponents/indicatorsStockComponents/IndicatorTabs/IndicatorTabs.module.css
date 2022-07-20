@@ -1,0 +1,33 @@
+.indicator_tabs_con {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+}
+.indicator_tabs_con * {
+  background-color: rgba(255, 255, 255, 0);
+}
+.indicator_tabs_items {
+  cursor: pointer;
+  margin-right: 15px;
+  height: 10px;
+  padding: 10px 15px;
+  background: #ecf1f9;
+  border-radius: 5px;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 10px;
+}
+.indicator_tabs_items_active{
+  cursor: pointer;
+  margin-right: 15px;
+  height: 10px;
+  padding: 10px 15px;
+  background: #6ECFBC;
+  color:#FFFFFF;
+  border-radius: 5px;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 10px;
+}

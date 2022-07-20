@@ -1,0 +1,106 @@
+.block_wr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 563px;
+  height: 641px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.block_title_wr {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 30px 0 30px;
+  background-color: #ffffff;
+}
+.block_title_name {
+  background-color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
+.block_title_info {
+  background-color: #ffffff;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 14px;
+}
+.block_elipse_wr {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 87px;
+  max-width: 380px;
+  height: 270px;
+}
+.block_elipse_wr canvas {
+  background-color: #ffffff;
+}
+.block_elipse_sm_wr {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.block_elipse_sm {
+  border-radius: 50%;
+  position: absolute;
+  background: none !important;
+  width: 200px;
+  height: 200px;
+  top: -230px;
+  left: 50px;
+}
+.block_elipse_sm * {
+  border-radius: 50%;
+}
+.block_elipse_sm_t_wr {
+  background: none;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  position: absolute;
+  top: -143px;
+  left: 90px;
+}
+.block_elipse_items_wr * {
+  background-color: #ffffff;
+}
+.block_elipse_items_wr {
+  background-color: #ffffff;
+  margin: 0 0 6px 30px;
+}
+.block_elipse_items {
+ white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 503px;
+  margin-bottom: 10px;
+  height: 43px;
+  font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+  
+}
+.block_elipse_items span:last-of-type{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+.block_elipse_items span:first-of-type{
+ margin-right: 10px;
+}
+.block_elipse_items::after{
+  display: flex;
+   position: absolute;
+   content: '';
+   margin-right: auto;
+   border-bottom:  1px solid #333333;
+   width: 503px;
+   height: 43px;
+   opacity: 0.3;
+    
+}
+
+.block_elipse_items:last-of-type::after{
+  border: none;
+}

@@ -1,0 +1,176 @@
+.stock_sdbr_con{
+  width: 326px;
+  /* position: fixed; */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  
+}
+.stock_sidebar_logo{
+  width: 225px;
+  height: 10px;
+  background-image: url('../../../images/singleStock/aspect-logo.svg');
+  background-repeat: no-repeat;
+  background-size: 90px 10px;
+  margin: 30px 0 0 0px;
+}
+.stock_sidebar_icons{
+  margin: 76px 51px 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.stock_sidebar_fav{
+  cursor: pointer;
+  margin-right: 9px;
+  background-image: url('../../../images/singleStock/fav-sidebar-stock.svg');
+  height: 23px;
+  width: 23px;
+  background-size: 12px 11px;
+  background-repeat: no-repeat;
+  border: 0.5px solid #ADB8C9;
+  border-radius: 5px;
+  background-position: center;
+}
+.stock_sidebar_fav:hover{
+  background-image: url('../../../images/singleStock/fav-hover.svg');
+   background-color: #6ECFBC;
+}
+.stock_sidebar_hist:hover{
+  background-color: #6ECFBC;
+  background-image: url('../../../images/singleStock/hist-hover.svg');
+}
+
+.stock_sidebar_hist{
+  cursor: pointer;
+  background-image: url('../../../images/singleStock/histogram-sidebar-stock.svg');
+  height: 11px;
+  width: 12px;
+  height: 23px;
+  width: 23px;
+  background-size: 12px 11px;
+  background-repeat: no-repeat;
+  border: 0.5px solid #ADB8C9;
+  border-radius: 5px;
+  background-position: center;
+}
+.stock_sidebar_tick_avatar{
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  background-color: black;
+}
+.stock_sidebar_tick_name{
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  height: 56px;
+  width: 140px;
+  margin-left: 27px;
+  word-wrap: break-word;
+}
+.stock_sidebar_tick_wr{
+  margin-top: 34px;
+  width: 225px;
+  display: flex;
+  justify-content: flex-start;
+}
+.stock_sidebar_info_wr{
+  width: 225px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 19px;
+}
+.stock_sidebar_info_icons{
+ width: 56px;
+}
+.stock_sidebar_graph{
+  margin-top: 20px;
+  cursor: pointer;
+  background-image: url('../../../images/singleStock/temp-graph.svg');
+  height: 11px;
+  width: 12px;
+  height: 13px;
+  width: 57px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.stock_sidebar_info_icons_wr{
+  display: flex;
+}
+.stock_sidebar_info_dt{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 27px;
+}
+.stock_sidebar_info_dt_tck{
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 14px;
+}
+.stock_sidebar_info_dt_price{
+  font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+}
+.stock_sidebar_info_dt_din{
+  font-weight: 200;
+font-size: 12px;
+line-height: 14px;
+color: #6ECFBC;
+}
+.stock_sidebar_menu_wr{
+  margin-top: 30px;
+}
+.stock_sidebar_menu_item{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+  width: 266px;
+  height: 40px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  
+}
+.stock_sidebar_menu_item:hover *,.stock_sidebar_menu_item:hover {
+  min-width: auto;
+  min-height: auto;
+  color: #6ECFBC;
+  font-weight: 700;
+  stroke: #6ECFBC;
+  stroke-width: 2px;
+  font-style: normal;
+  font-size: 16px;
+}
+.stock_sidebar_menu_item:hover::after{
+  position: absolute;
+  border-radius: 5px;
+  background-color: #6ECFBC;
+  opacity: 0.2;
+   content: "";
+   cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+  width: 266px;
+  height: 40px;
+}
+.stock_sidebar_menu_item_view,.stock_sidebar_menu_item_dividends,.stock_sidebar_menu_item_rating,.stock_sidebar_menu_item_cost,.stock_sidebar_menu_item_indicators,.stock_sidebar_menu_item_reporting,.stock_sidebar_menu_item_news{
+  margin-top: 2px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 15px;
+  margin-right: 25px;
+}
+.span:hover{
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}

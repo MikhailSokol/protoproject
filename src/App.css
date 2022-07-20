@@ -1,0 +1,23 @@
+*{
+  font-family: 'Roboto Flex', sans-serif;
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color:#333333;
+  background-color: #ECF1F9
+}
+.active * ,.active {
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 19px;
+  color: #6ECFBC;
+  stroke: #6ECFBC;
+  stroke-width: 2px;
+ 
+}
+

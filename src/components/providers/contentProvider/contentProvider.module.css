@@ -1,0 +1,10 @@
+.app_wrap{
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 30px);
+  /* border: 1px solid red; */
+}
+
+.app_chld_wrap{
+  margin-left: 356px;
+}

@@ -1,0 +1,10 @@
+.line_chart_cost_con{
+  width: 100%;
+  margin-top: 65px;
+  background-color: rgba(255, 255, 255, 0);
+  height: 330px;
+ 
+}
+.line_chart_cost_con *{
+  background: none;
+}

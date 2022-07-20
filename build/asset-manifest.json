@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.acdd343e.css",
+    "main.js": "/static/js/main.731f894e.js",
+    "static/media/single-action.svg": "/static/media/single-action.0a93c3eda7be81cf87ea.svg",
+    "static/media/aspect-logo.svg": "/static/media/aspect-logo.07f7a5f77f3adcd41ff0.svg",
+    "static/media/hist-hover.svg": "/static/media/hist-hover.b9ffbaf1179a0e37bae4.svg",
+    "static/media/histogram-sidebar-stock.svg": "/static/media/histogram-sidebar-stock.91564469eacb4902070f.svg",
+    "static/media/question.svg": "/static/media/question.804766b7a579c97b2bef.svg",
+    "static/media/indicators.svg": "/static/media/indicators.f5a4d4236093491ff60d64a70b559759.svg",
+    "static/media/view.svg": "/static/media/view.41f8040c7c07b3df6d5e1166ddef7d79.svg",
+    "static/media/cost.svg": "/static/media/cost.1867949bb21820849dacf611d7cf9126.svg",
+    "static/media/ellipse-small.svg": "/static/media/ellipse-small.9bbd0e043c6012c5bdf71b43143faf1e.svg",
+    "static/media/portfolio.svg": "/static/media/portfolio.5e6412bc8a4b36b0924a.svg",
+    "static/media/ellipse-big.svg": "/static/media/ellipse-big.f7af8e46f5561cdf9fef295bb474ba03.svg",
+    "static/media/dividends.svg": "/static/media/dividends.1c102c3228375bb7e521b435a2cc5b02.svg",
+    "static/media/select.svg": "/static/media/select.d926675a1102e216cc5b.svg",
+    "index.html": "/index.html",
+    "static/media/temp-graph.svg": "/static/media/temp-graph.743e511fc828d960ee0b.svg",
+    "static/media/market.svg": "/static/media/market.0f8fd89141ad8459f754.svg",
+    "static/media/fav-sidebar-stock.svg": "/static/media/fav-sidebar-stock.3bf4411e7e1e5a01e23d.svg",
+    "static/media/fav-hover.svg": "/static/media/fav-hover.996e00faa44600848fd8.svg",
+    "static/media/news.svg": "/static/media/news.cae68cd69546b5a02d1fe3303d7d05ee.svg",
+    "static/media/rating.svg": "/static/media/rating.f235af7a30c63a012f62da4531c72753.svg",
+    "static/media/reporting.svg": "/static/media/reporting.c3fb10bf01451a77294b2d83863de9cb.svg",
+    "static/media/search.svg": "/static/media/search.ffb5fa0641de91464155.svg",
+    "main.acdd343e.css.map": "/static/css/main.acdd343e.css.map",
+    "main.731f894e.js.map": "/static/js/main.731f894e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acdd343e.css",
+    "static/js/main.731f894e.js"
+  ]
+}

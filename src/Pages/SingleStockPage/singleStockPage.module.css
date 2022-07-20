@@ -1,0 +1,5 @@
+.sngl_stock_con{
+  margin-left: 356px;
+  width: calc(100% - 356px);
+  height: calc(100vh - 74px);
+}

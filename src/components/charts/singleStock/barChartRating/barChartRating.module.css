@@ -1,0 +1,8 @@
+.bar_chart_con{
+  margin-top: 89px;
+  background-color: rgba(255, 255, 255, 0);
+  height: 400px;
+}
+.bar_chart_con canvas{
+  background-color: rgba(255, 255, 255, 0);
+}
